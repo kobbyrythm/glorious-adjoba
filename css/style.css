@@ -796,3 +796,22 @@ body {
   .hero-actions .btn { width: 100%; text-align: center; }
   .trust-pillars { grid-template-columns: 1fr; }
 }
+
+.apt-group {
+  margin-bottom: 32px;
+}
+
+.apt-group-label {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--gold-dark);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.rate-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
